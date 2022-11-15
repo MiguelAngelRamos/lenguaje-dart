@@ -14,7 +14,8 @@ void main(List<String> args) {
   Map<String, dynamic> usuario2 = {
     'id': 1,
     'nombre': 'Pedro',
-    'role': 'User'
+    'role': 'User',
+    'isActive': true
   };
   // print(usuario2);
 
@@ -32,6 +33,7 @@ void main(List<String> args) {
   //* accediendo al valor de una llave del diccionario
   print(productos[2]); //* Microfono Blue Yeti
   // productos[2] = 'Microfono Hyper X';
+
   //* Agregar un elemento al Mapa
   productos[3] = 'Monitor MSI 27 pulgadas';
   print(productos);
@@ -50,8 +52,6 @@ void main(List<String> args) {
     });
     
     print(cuenta);
-
-
 
 }
 
