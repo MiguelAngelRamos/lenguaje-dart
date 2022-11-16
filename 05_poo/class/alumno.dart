@@ -10,7 +10,7 @@ class Alumno {
 
   // Alumno(this.nombre, this.apellido, this.edad, this.telefono, this.calificaciones) {
   // }
-  Alumno({ required this.nombre, this.apellido ="", this.edad = 0, this.telefono ="", this.calificaciones = const []}) {
+  Alumno({ this.nombre="", this.apellido ="", this.edad = 0, this.telefono ="", this.calificaciones = const []}) {
   }
 
   void obtenerPromedio() {
