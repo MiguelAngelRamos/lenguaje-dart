@@ -32,7 +32,7 @@ void main(List<String> args) {
   //* SETS
   // var lenguajes = {'Java', 'C#', 'Python'};
   Set<String> lenguajes = {'Java', 'C#', 'Python'};
-  //* Admiten valores duplicados
+  //* No Admiten valores duplicados
   lenguajes.add('Dart');
   lenguajes.add('Dart');
   lenguajes.add('Dart');
